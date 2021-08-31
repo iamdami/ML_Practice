@@ -2,7 +2,7 @@
 ### 1. 문제 정의 - 어떤 문제를 해결하고 싶은지<br>
  분류 / 회귀 / 예측 / 이상값 감지 / 그룹화 / 강화학습
 <div align="center">
-  <img alt="..." src="./Images/algorithm.png" />
+  <img alt="..." src="../Images/algorithm.png" />
 </div>
 
 어떤 문제를 해결하고자 하느냐에 따라 적합한 알고리즘이 정해져 있음
