@@ -71,7 +71,9 @@
 <br>
 참고 자료)<br>
 ai hub 패션 상품 및 착용 이미지 데이터셋<br>
-친절한AI 유투브 재생목록
+친절한AI 유투브 재생목록<br>
+이미지 기초 분류 예제 https://www.tensorflow.org/tutorials/keras/classification<br>
+패션 상품 및 착용 이미지 데이터 교육 영상 https://www.youtube.com/watch?v=jhnkRQBoJR4<br>
 
 
 
