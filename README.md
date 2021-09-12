@@ -7,6 +7,7 @@ Projects to practice machine learning.
 - [Week 1](https://github.com/iamdami/ML_Practice/blob/main/Process/week1.md)
 - [머신러닝 지도](https://github.com/iamdami/ML_Practice/blob/main/Process/mlMap.md)
 - [Pytorch cheat sheet](https://github.com/iamdami/ML_Practice/blob/main/Images/pytorch-cheat.jpg)
+- [Week 3 - References](https://github.com/iamdami/ML_Practice/tree/main/Process)
 <br>
 
 ### Recognize Human face
