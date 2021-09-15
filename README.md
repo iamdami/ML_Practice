@@ -17,6 +17,6 @@ Projects to practice machine learning.
 ### Image composition using Semantic Segmentation
 - Separate the foreground
 - Separate the background and foreground
-- Only the foreground part of the background paint black
+- Paint the foreground part of the background as black
 - Adds an image with only the foreground separated and an image with only the foreground black from the background
 <br>
