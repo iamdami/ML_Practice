@@ -14,7 +14,7 @@ Projects to practice machine learning.
 -  Recognizes human faces and corresponds emotions from a video or webcam feed
 <br>
 
-### Image composition using Semantic Segmentation
+### Image compositing using Semantic Segmentation
 - Separate the foreground
 - Separate the background and foreground
 - Paint the foreground part of the background as black
