@@ -9,6 +9,7 @@ Projects to practice machine learning.
 - [Pytorch cheat sheet](https://github.com/iamdami/ML_Practice/blob/main/Images/pytorch-cheat.jpg)
 - [Week 3 - References](https://github.com/iamdami/ML_Practice/blob/main/Process/week3_References.md)
 - [Week 4 - References](https://github.com/iamdami/ML_Practice/blob/main/Process/week4_References.md)
+- [Week 5 - References](https://github.com/iamdami/ML_Practice/blob/main/Process/week5_References.md)
 <br>
 
 ### Recognize Human face (School term project)
