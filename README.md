@@ -15,6 +15,7 @@ Projects to practice machine learning.
 
 ### Recognize Human face (School term project)
 -  Recognizes human faces and corresponds emotions from a video or webcam feed
+-  Analyzes emotions and recommends music that suits them
 <br>
 
 ### Image compositing using Semantic Segmentation (21-2 Lab)
