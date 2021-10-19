@@ -11,6 +11,7 @@ Projects to practice machine learning.
 - [Week 4 - References](https://github.com/iamdami/ML_Practice/blob/main/Process/week4_References.md)
 - [Week 5 - References](https://github.com/iamdami/ML_Practice/blob/main/Process/week5_References.md)
 - [Week 6 - References](https://github.com/iamdami/ML_Practice/blob/main/Process/week6_References.md)
+- [Week 7 - References](https://github.com/iamdami/ML_Practice/blob/main/Process/week7_References.md)
 <br>
 
 ### Recognize Human face (School term project)
