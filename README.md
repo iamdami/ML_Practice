@@ -25,3 +25,5 @@ Projects to practice machine learning.
 - Paint the foreground part of the background as black
 - Adds an image with only the foreground separated and an image with only the foreground black from the background
 <br>
+
+### Hand Landmarks (21-2 Lab)
