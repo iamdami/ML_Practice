@@ -27,3 +27,4 @@ Projects to practice machine learning.
 <br>
 
 ### Hand Landmarks (21-2 Lab)
+- Rock paper scissors game
