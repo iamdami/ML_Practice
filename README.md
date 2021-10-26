@@ -26,5 +26,5 @@ Projects to practice machine learning.
 - Adds an image with only the foreground separated and an image with only the foreground black from the background
 <br>
 
-### Hand Landmarks (21-2 Lab)
+### Mediapipe (21-2 Lab)
 - Rock paper scissors game
