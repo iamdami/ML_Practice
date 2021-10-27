@@ -63,7 +63,8 @@ while True:
             # print(idx) #idx에 results(레이블값 들어감)
 
             if idx in rps_gesture.keys() :
-                cv2.putText(img, text=rps_gesture[idx].upper(), org=(int(handLms.landmark[0].x * img.shape[1]), int(handLms.landmark[0].y * img.shape[0] + 20)),
+                cv2.putText(img, text=rps_gesture[idx].upper(), org=(int(handLms.landmark[0].x * img.shape[1]),
+                                                                     int(handLms.landmark[0].y * img.shape[0] + 20)),
                            fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255, 255, 255), thickness=2)
 
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
