@@ -16,11 +16,16 @@ angle_data = np.empty((0, 3), np.float32)
 pTime = 0
 CTime = 0
 
-file = np.genfromtxt("gesture_train.csv", delimiter=",")  # 이미 학습된 각도값 추출
-angle = file[:, :-1].astype(np.float32)  # 각도값 추출
-label = file[:, -1].astype(np.float32)  # gesture_train.csv에 라벨(gesture_train의 맨 마지막 데이터, 제스처의 종류를 의미)
-knn = cv2.ml.KNearest_create()  # cv2에 knn 모델 생성
-knn.train(angle, cv2.ml.ROW_SAMPLE, label)  # 추출한 데이터로 knn 모델 학습
+file = np.genfromtxt("gesture_train.csv", delimiter=",")  
+# 이미 학습된 각도값 추출
+angle = file[:, :-1].astype(np.float32)  
+# 각도값 추출
+label = file[:, -1].astype(np.float32)  
+# gesture_train.csv에 라벨(gesture_train의 맨 마지막 데이터, 제스처 종류 의미)
+knn = cv2.ml.KNearest_create()  
+# cv2에 knn 모델 생성
+knn.train(angle, cv2.ml.ROW_SAMPLE, label)  
+# 추출한 데이터로 knn 모델 학습
 
 
 def Who_Is_Winner(Players):
@@ -88,10 +93,12 @@ while True:
                 print(str(i) + ": " + str(angle[i]))
                 
             
-            data = np.array([angle], dtype=np.float32)  # float32 데이터 타입의 numpy 배열 data 생성
-            success, results, neighbours, dist = knn.findNearest(data, 3)  # datadhk k에 3을 인수로 주고 knn 모델
+            data = np.array([angle], dtype=np.float32)  
+            # float32 데이터 타입의 numpy 배열 data 생성
+            success, results, neighbours, dist = knn.findNearest(data, 3)  
+            # datadhk k에 3을 인수로 주고 knn 모델
             idx = int(results[0][0])
-            # print(idx) #idx에 results(라벨값이 들어감)
+            # print(idx) #idx에 results(라벨값 들어감)
 
             if idx in rps_gesture.keys():
                 Hand_count += 1
