@@ -23,7 +23,7 @@ knn = cv2.ml.KNearest_create()  # cv2에 knn 모델 생성
 knn.train(angle, cv2.ml.ROW_SAMPLE, label)  # 추출한 데이터로 knn 모델 학습
 
 
-def Who_Is_Winner(Players):  # 로직 만들어라 미래의 우진
+def Who_Is_Winner(Players):
     who = 0
     if Players[0]['gesture'] == Players[1]['gesture']:
         return '    Tie'
